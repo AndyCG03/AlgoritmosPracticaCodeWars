@@ -131,6 +131,11 @@ public class Main {
         //Algoritmo Optimo
         //return binary.stream().reduce((x, y) -> x * 2 + y).get();
     }
+
+    public static String boolToWord(boolean b){
+        return b? "Yes": "No";
+    }
+
 }
 
 
